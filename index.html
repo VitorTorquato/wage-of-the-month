@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How old are you?</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="src/main.js" defer></script>
+</head>
+<body>
+    <body>
+
+        <div class="error-alert ">ERROR</div>
+        <div id="app">
+            <main class="card">
+                <form>
+                    <h1>Salary calculator</h1>
+                    <fieldset>
+                        <div class="fildesetWrapper">
+                            <div class="hours">
+                                <div class="input-wrapper">
+                                    <label for="addSalary">What is your wage per hour ? </label>
+                                    <input type="number" placeholder="salary per hour" id="addSalary">
+                                    <button class="applyBtnHour">Apply</button>
+                                </div>
+
+                            </div>
+
+                            <div class="hours">
+                                <div class="input-wrapper">
+                                    <label for="addHours">How many hours did you work this month</label>
+                                    <input type="number" placeholder="add your hours" id="addHours">
+                                    <button class="applyBtn">Apply</button>
+                                </div>
+
+                            </div>
+                            
+
+                            <div class="submitButton">
+                                <button class="verifyButton">
+                                    Check out your wage <img src="arrow-up-right.svg" alt="arrow-to-right">
+                                </button>
+                            </div>
+
+                        </div>
+                    </fieldset>
+                </form>
+                
+            </main>
+        </div>
+       
+        <div class="popup-wrapper ">
+            <div class="popup card">
+                <h2 class="message">
+                <button class="close">
+                    <img src="close.svg" alt="letter X to close popup">
+    
+                </button>
+                <span>You worked : x hours</br>
+
+            </h2>
+            </div>
+        </div>
+</body>
+</html>
